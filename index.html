@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MadLib Generator</title>
+    <script src="./MadLib.js"></script>
+  </head>
+  <body>
+    <div id="app">
+        <h1>Mad-Lib Generator</h1>
+        <h3>A Code Demo by Eli Watson</h3>
+        <p>This is a JS program to generate a Mad-Lib with over 150 quintillion Different Possible Combinations!</p>
+       
+        <button onclick="displayMadlib()">New Mad Lib</button>
+    </div>
+    <div id="madLib-Container">
+        <div id="madLib"></div>
+    </div> 
+    
+  </body>
+</html>
+<style>
+    body {
+      background-image: url('./Marble.jpg');
+    }
+    #app {
+        text-align: center;
+    }
+    #madLib-Container {
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    #madLib {
+        border-color: black;
+        border-width: 2px;
+        border-style: solid;
+        max-width: 1200px;
+    }
+</style>
